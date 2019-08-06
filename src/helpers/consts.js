@@ -1,0 +1,1 @@
+export const BASEURL_GITAPI = "https://api.github.com";

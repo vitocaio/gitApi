@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'montserrat';
+  src: url('./fonts/montserrat/Montserrat-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'montserrat';
+  src: url('./fonts/montserrat/Montserrat-Medium.ttf') format('truetype');
+  font-weight: bold
+}
+@font-face {
+  font-family: 'montserrat';
+  src: url('./fonts/montserrat/Montserrat-Light.ttf') format('truetype');
+  font-weight: lighter
+}
+
+body {
+  background: #f4f4f4;
+  font-family: 'montserrat';
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+.btn-default {
+  font-size: 0.8rem;
+  padding: 12px 15px;
+}
+
+.form-group {
+  position: relative;
+}
+
+.margin-left20 {
+  margin-left: 20px;
+} 
+
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: transparent;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: rgba(0, 0, 0, 0.025);
+}
+
+.modal-dialog.modal-lg {
+  max-width: 900px;
+}
+
+div[x-placement^="bottom"] polygon {
+  fill: #000;
+}
