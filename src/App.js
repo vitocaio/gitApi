@@ -1,9 +1,11 @@
 import React from 'react';
 
+import RepositoryList from './components/listRepositorys'
+
 function App() {
   return (
     <div className="App">
-      Ola Gympass!
+      <RepositoryList />
     </div>
   );
 }
